@@ -14,7 +14,7 @@ int main() {
     //pido ingreso de datos
     cout << "Ingrese el monto de la compra: ";
     cin >> compra;
-    
+
     /*Verifico que la compra sea por un monto valido*/
     if (compra > 0)
     {
@@ -27,8 +27,8 @@ int main() {
     float cuotas_12 = compra * 1.5;
 
     cout << "1 cuota de $ "<< compra << endl;
-    cout << "2 cuotas de $ "<< compra << " total $ " << cuotas_2 << " (5\% de recargo)" << endl;
-    cout << "6 cuotas de $ "<< compra << " total $ " << cuotas_6 << " (30\% de recargo)" << endl;
-    cout << "12 cuotas de $ "<< compra << " total $ " << cuotas_12 << " (50\% de recargo)" << endl;
+    cout << "2 cuotas de $ "<< cuotas_2/2 << " total $ " << cuotas_2 << " (5\% de recargo)" << endl;
+    cout << "6 cuotas de $ "<< cuotas_6/6 << " total $ " << cuotas_6 << " (30\% de recargo)" << endl;
+    cout << "12 cuotas de $ "<< cuotas_12/12 << " total $ " << cuotas_12 << " (50\% de recargo)" << endl;
     return 0;
 }
