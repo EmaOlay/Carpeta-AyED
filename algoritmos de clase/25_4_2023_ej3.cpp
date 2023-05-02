@@ -14,6 +14,7 @@ int main() {
     //pido ingreso de datos
     cout << "Ingrese el monto de la compra: ";
     cin >> compra;
+    
     /*Verifico que la compra sea por un monto valido*/
     if (compra > 0)
     {
