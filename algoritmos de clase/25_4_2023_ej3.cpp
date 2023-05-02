@@ -14,6 +14,12 @@ int main() {
     //pido ingreso de datos
     cout << "Ingrese el monto de la compra: ";
     cin >> compra;
+    /*Verifico que la compra sea por un monto valido*/
+    if (compra > 0)
+    {
+        cout<< "Compra fruta"<<endl;
+        return -1;
+    }
     //calculo cuotas
     float cuotas_2 = compra * 1.05;
     float cuotas_6 = compra * 1.3;
