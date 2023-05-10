@@ -43,6 +43,7 @@
         "xtr1common": "cpp",
         "xutility": "cpp",
         "format": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "string": "cpp"
     }
 }
